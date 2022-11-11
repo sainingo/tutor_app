@@ -1,19 +1,24 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import {  FaLanguage } from 'react-icons/fa'
+import {GiTeacher } from 'react-icons/gi'
+import { MdOutlinePlayLesson } from 'react-icons/md'
+import { FcStatistics } from 'react-icons/fc'
+import { AiOutlineShoppingCart } from 'react-icons/ai'
 
 const Navbar = () => {
   return (
     <div className=' w-[280px] h-screen p-2 border-r-2'>
-      <div>
+      <div className='px-4'>
         <h3><img src={logo} alt="logo" width="200px"/></h3>
       </div>
-      <div className='p-8'>
+      <div className='p-12'>
         <ul className='flex flex-col'>
-          <li className='py-4'>Tutors</li>
-          <li className='py-4'>Explore Languages</li>
-          <li className='py-4'>My Lessons</li>
-          <li className='py-4'>Statistics</li>
-          <li className='py-4'>Shopping Cart</li>
+          <li className='py-5 flex gap-2 items-center cursor-pointer'>< GiTeacher  size="28px"/> Tutors</li>
+          <li className='py-5 flex gap-2 items-center cursor-pointer'>< FaLanguage size="28px"/> Explore Languages</li>
+          <li className='py-5 flex gap-2 items-center cursor-pointer'> < MdOutlinePlayLesson size="28px"/>My Lessons</li>
+          <li className='py-5 flex gap-2 items-center cursor-pointer'> <FcStatistics size="28px"/>Statistics</li>
+          <li className='py-5 flex gap-2 items-center cursor-pointer'> <AiOutlineShoppingCart size="28px"/>Shopping Cart</li>
         </ul>
       </div>
     </div>
