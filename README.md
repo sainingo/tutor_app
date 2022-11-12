@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Tutor App - React and Ruby on Rails
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This repo host the code for Tutor app - A react and ruby on rails application for a take away project
 
-## Available Scripts
+## Preview
 
-In the project directory, you can run:
 
-### `npm start`
+## Front-end url
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Visit this [live link](https://tutor-app-mu.vercel.app/) to interact with the web app before cloning it.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Backe-end url
+- visit this [link](https://tutor-backend-api.herokuapp.com/api/v1/tutors)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+- **React**
+- **Redux**
+- **Ruby**
+- **Rails**
+- **Postgresql**
+- **Tailwindcss**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Methodology used 
+- TDD via RSPEC
+  
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Prerequisites
 
-### `npm run eject`
+- You need Ruby v3+, Rails v7+ and Postgresql installed on your machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Setup
+- Clone the project `git clone git@github.com/sainingo/tutor_app.git`
+- navigate to the folder `cd tutor_app`
+- Install required gems `bundle install`
+- Install required npm `npm install`
+- Load the database `rails db:create && rails db:migrate && rails db:seed`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
+- start the server `rails server`
+- start the react `npm run start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Enjoy interacting with the app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
+<a href="https://github.com/sainingo" target="blank"><img align="center"
+      src="https://avatars.githubusercontent.com/u/32932447?s=40&v=4"
+      alt="adampithewan" height="50" width="50"/></a> **SANINGO**
+      
+- GitHub: [@sainingo](https://github.com/sainingo)
+- Twitter: [@sainingo](https://www.linkedin.com/in/sainingo/)
+- LinkedIn: [sainingo](https://twitter.com/saningoInn)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues, and feature requests are welcome!
 
-### Code Splitting
+Feel free to check the [issues page](https://github.com/Benmuiruri/budget_tracker/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
