@@ -15,7 +15,7 @@ const Header = () => {
         <p className='border border-gray-400 rounded-full p-3 text-center font-bold w-[50px]'>M</p>
         </div>
       </div>
-      <div className='ml-32 flex items-center mt-12 border w-[220px] p-2 border-gray-300 rounded-xl shadow-lg focus:outline-none'>
+      <div className='ml-32 flex items-center mt-12 border w-[220px] lg:w-[400px] lg:ml-6 lg:justify-between p-2 border-gray-300 rounded-xl shadow-lg focus:outline-none'>
         <input placeholder='Search Tutor' type='text'/>
         <BiSearchAlt2 size='24px'/>
       </div>
