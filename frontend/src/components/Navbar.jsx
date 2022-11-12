@@ -14,11 +14,11 @@ const Navbar = () => {
       </div>
       <div className='p-12'>
         <ul className='flex flex-col'>
-          <li className='py-5 flex gap-2 items-center cursor-pointer'>< GiTeacher  size="28px"/> Tutors</li>
-          <li className='py-5 flex gap-2 items-center cursor-pointer'>< FaLanguage size="28px"/> Explore Languages</li>
-          <li className='py-5 flex gap-2 items-center cursor-pointer'> < MdOutlinePlayLesson size="28px"/>My Lessons</li>
-          <li className='py-5 flex gap-2 items-center cursor-pointer'> <FcStatistics size="28px"/>Statistics</li>
-          <li className='py-5 flex gap-2 items-center cursor-pointer'> <AiOutlineShoppingCart size="28px"/>Shopping Cart</li>
+          <li className='py-5 flex gap-2 items-center cursor-pointer hover:bg-gray-100 hover:cursor-hand transition-500 rounded-lg'>< GiTeacher  size="28px"/> Tutors</li>
+          <li className='py-5 flex gap-2 items-center cursor-pointer hover:bg-gray-100 hover:cursor-hand transition-500 rounded-lg'>< FaLanguage size="28px"/> Explore Languages</li>
+          <li className='py-5 flex gap-2 items-center cursor-pointer hover:bg-gray-100 hover:cursor-hand transition-500 rounded-lg'> < MdOutlinePlayLesson size="28px"/>My Lessons</li>
+          <li className='py-5 flex gap-2 items-center cursor-pointer hover:bg-gray-100 hover:cursor-hand transition-500 rounded-lg'> <FcStatistics size="28px"/>Statistics</li>
+          <li className='py-5 flex gap-2 items-center cursor-pointer hover:bg-gray-100 hover:cursor-hand transition-500 rounded-lg'> <AiOutlineShoppingCart size="28px"/>Shopping Cart</li>
         </ul>
       </div>
     </div>
