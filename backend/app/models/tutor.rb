@@ -1,2 +1,0 @@
-class Tutor < ApplicationRecord
-end

@@ -7,8 +7,6 @@ import { getTutorsAsync } from '../features/tutors/tutorsSlice'
 const Tutors = () => {
 
   const {tutors} = useSelector((state) => state.tutors)
-
-    console.log(tutors)
   const dispatch = useDispatch()
 
   useEffect(() => {
