@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import  getTutors  from './tutorsApi'
 
 
-const baseURL =  'http://localhost:3000'
+const baseURL =  'https://tutor-backend-api.herokuapp.com/api/v1/tutors'
 
 export const getTutorsAsync = createAsyncThunk('tutors/getTutors', () => {
   const tutors =  getTutors(baseURL);
