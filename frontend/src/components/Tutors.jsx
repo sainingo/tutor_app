@@ -24,9 +24,9 @@ const Tutors = () => {
   return stars
   }
   return (
-    <div className='w-[70%] absolute ml-[30%] lg:mt-[10%] lg:ml-[20%] mt-[20%]'>
+    <div className='w-[70%] absolute ml-[30%] lg:mt-[10%] lg:ml-[20%] sm:mt-[20%] mt-[40%]'>
       <h3 className='font-semibold ml-10'>Online Tutors</h3>
-      <div className='grid grid-cols-2 gap-0'>
+      <div className='grid md:grid-cols-2 gap-0'>
         {tutors.map((tutor) => (
             <div className='border border-gray-300 p-4 m-2 w-[80%] rounded-lg'>
             <div className='flex justify-between'>

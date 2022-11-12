@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className=' w-[280px] h-screen p-2 border-r-2'>
+    <div className='invisible md:visible w-[280px] h-screen p-2 border-r-2'>
       <div className='px-4'>
         <h3><img src={logo} alt="logo" width="200px"/></h3>
       </div>

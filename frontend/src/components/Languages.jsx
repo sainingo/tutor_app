@@ -2,7 +2,7 @@ import React from 'react'
 
 const Languages = () => {
   return (
-    <div className='absolute w-[70%]  mt-[20%] ml-[30%] lg:mt-[10%] lg:ml-[20%]'>
+    <div className='absolute w-[70%] mt-[30%] md:mt-[20%] ml-[30%] lg:mt-[10%] lg:ml-[20%]'>
       <div className='border border-gray-300 w-[90%] rounded-lg text-center shadow-lg m-4 p-2'>
         <h5 className='font-semibold'>Global</h5>
         <p>Top 20 spoken languages</p>
