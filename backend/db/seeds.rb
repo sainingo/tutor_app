@@ -13,4 +13,7 @@ languages = Language.create([{language_name: "French", country: "Algeria", flag:
 
 
 tutors = Tutor.create([{name: "Gilbert", country: "Kenya", city: "Maralal", lessons: 200}, 
-    {name: "Ajay", country: "India", city: "Bangladesh", lessons: 1000}])
+    {name: "Ajay", country: "India", city: "Bangladesh", lessons: 1000}, 
+{name: 'Fish guy', country: 'USA', city: 'san francisco', lessons: 500}, {
+    name: 'John doe', country: 'France', city: 'mexico', lessons: 700
+}])
